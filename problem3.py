@@ -15,7 +15,7 @@ an integer
 an integer
 an integer
 
-Outpus:
+Outputs:
 xx,yy,zz form a Pythagorean Triple
 xx,yy,zz do not form a Pythagorean Triple
 
@@ -30,3 +30,11 @@ Enter an integer=>4
 Enter an integer=>2
 2,4,5 do not form a Pythagorean triple
 """
+x = int(input("Enter a number a:"))
+y = int(input("Enter a number b:"))
+z = int(input("Enter a number c:"))
+
+if x**2 + y**2 == z**2:
+    print(f" {x} , {y} , {z} form a Pythagorean Triple")
+else:
+     print(f" {x} , {y} , {z}  do not form a Pythagorean Triple")

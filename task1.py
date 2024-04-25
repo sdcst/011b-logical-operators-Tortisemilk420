@@ -32,3 +32,24 @@ Enter the distance from the sun in AU: 2
 That is not within normal Earth or Mars orbit.
 
 """
+
+
+earthmin = 0.9759
+earthmax = 1.026
+marsmin  = 1.524
+marsmax  = 1.666
+
+number = float (input("Enter a number"))
+
+if earthmin <= number <= earthmax:
+    print("within normal earth orbit")
+elif marsmin <= number <= marsmax:
+    print("within normal mars orbit")
+else:
+    print("number is not within normal mars or earth orbit")
+
+
+
+
+
+

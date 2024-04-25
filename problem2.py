@@ -26,3 +26,10 @@ Enter a number: 4
 Enter another number: 25
 4 is not a factor of 25
 """
+number=int(input("Enter a number:"))
+number2=int(input("Enter a number:"))
+
+if number % number2 == 0:
+    print(f"{number2} is a factor of {number}")
+else:
+    print(f"{number2} is not a factor of {number}")
